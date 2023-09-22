@@ -11,6 +11,9 @@ public class Helloworld {
         String userName = scanner.nextLine();
 
         System.out.println("Hello " + userName + "!");
+        
+        System.out.print("How are you doing?  ");
+        String answer = scanner.nextLine();
 
         scanner.close();
 		
